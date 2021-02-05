@@ -1,7 +1,7 @@
 import bground from "../images/bground.jpeg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
-import Navbar from "../COMPONENTS/navbar";
-export const LandingPageView = ({}) => {
+
+export const ProjectPageView = ({}) => {
   return (
     <div>
       <div className="landingPage">
@@ -9,7 +9,6 @@ export const LandingPageView = ({}) => {
 
         <Logo id="homeButton" onClick={() => (window.location.pathname = "")} />
       </div>
-      {<Navbar />}
     </div>
   );
 };

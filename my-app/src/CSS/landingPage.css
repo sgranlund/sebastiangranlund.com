@@ -24,6 +24,34 @@
   animation: fill 0.5s ease forwards 5s;
 }
 
+.mainMenu {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menuItem:hover {
+  background-color: orange;
+}
+.menuItem {
+  width: 20%;
+  position: relative;
+}
+.menuItem a {
+  height: 100%;
+  width: 100%;
+
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
 @keyframes fill {
   from {
     fill: transparent;
