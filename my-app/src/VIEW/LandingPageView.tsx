@@ -1,5 +1,5 @@
 import bground from "../images/bground.jpeg";
-import { ReactComponent as Logo } from "../images/sebastiangranlund.svg";
+import { ReactComponent as Logo } from "../images/homebutton.svg";
 export const LandingPageView = ({}) => {
   return (
     <div>

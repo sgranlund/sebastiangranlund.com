@@ -16,8 +16,19 @@
 }
 #homeButton {
   position: relative;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 200px;
+  top: 2%;
+  left: 2%;
+  transform: translate(0, 0%);
+  animation: fill 0.5s ease forwards 5s;
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
 }
