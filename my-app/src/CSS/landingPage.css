@@ -1,0 +1,23 @@
+.bground {
+  width: 40%;
+}
+.landingPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.title {
+  position: absolute;
+  padding: 0;
+  margin: 1%;
+  font-size: 600%;
+  z-index: 1;
+  display: none;
+}
+#homeButton {
+  position: relative;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
