@@ -1,9 +1,9 @@
 import react from "react";
 import { NavLink } from "react-router-dom";
 import routeURLS from "./navLink";
-import workIcon from "../images/portfolio.svg";
-import projectIcon from "../images/project.svg";
-import meIcon from "../images/me.svg";
+import { ReactComponent as WorkIcon } from "../images/portfolio.svg";
+import { ReactComponent as ProjectIcon } from "../images/project.svg";
+import { ReactComponent as MeIcon } from "../images/me.svg";
 const Navbar = () => {
   return (
     <ul className="mainMenu">
@@ -14,7 +14,7 @@ const Navbar = () => {
           to={routeURLS.HOME}
           exact
         >
-          <img src={meIcon} />
+          <MeIcon id="icon" />
           ABOUT ME
         </NavLink>
       </li>
@@ -25,7 +25,7 @@ const Navbar = () => {
           to={routeURLS.PROJECT}
           exact
         >
-          <img src={projectIcon}></img>
+          <ProjectIcon id="icon" />
           PROJECTS
         </NavLink>
       </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
           to={routeURLS.WORK}
           exact
         >
-          <img src={workIcon}></img>
+          <WorkIcon id="icon" />
           WORK
         </NavLink>
       </li>

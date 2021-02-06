@@ -36,9 +36,7 @@
   display: flex;
   justify-content: space-around;
 }
-.menuItem:hover {
-  background-color: orange;
-}
+
 .menuItem {
   width: 20%;
   position: relative;
@@ -51,6 +49,12 @@
   color: white;
   text-align: center;
   text-decoration: none;
+}
+#icon {
+  fill: orange;
+}
+#icon:hover {
+  fill: white;
 }
 @keyframes fill {
   from {
