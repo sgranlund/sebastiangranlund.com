@@ -3,17 +3,22 @@ import ReactDOM from "react-dom";
 import "./CSS/index.css";
 import "./CSS/landingPage.css";
 import "./CSS/homeButtonAni.css";
+import "./CSS/aboutMe.css";
 import LandingPage from "./PRESENTER/landingPage";
 import ProjectPage from "./PRESENTER/projectPage";
+import AboutMePage from "./PRESENTER/aboutMePage";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
-
+import routeUrls from "./COMPONENTS/navLink";
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route path="/project">
+        <Route path={routeUrls.PROJECT}>
           <ProjectPage />
+        </Route>
+        <Route path={routeUrls.ABOUT}>
+          <AboutMePage />
         </Route>
         <Route path="/">
           <LandingPage />

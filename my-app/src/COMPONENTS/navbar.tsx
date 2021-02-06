@@ -11,7 +11,7 @@ const Navbar = () => {
         <NavLink
           className="navbar-item"
           activeClassName="is-active"
-          to={routeURLS.HOME}
+          to={routeURLS.ABOUT}
           exact
         >
           <MeIcon id="icon" />
