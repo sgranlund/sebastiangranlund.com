@@ -5,12 +5,14 @@ import skidor from "../images/skidsebbe.jpg";
 import LvlBar from "../COMPONENTS/lvlBar";
 import Footer from "../COMPONENTS/footer";
 
-export const AboutMePageView = ({ one, two, three, four }) => {
+export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
   return (
     <div id="content">
       <div className="landingPage">
-        <Logo id="homeButton" onClick={() => (window.location.pathname = "")} />
+        <Logo id="homeButton" onClick={handleOnClick} />
+
         <div id="textPicBar">
+          <h1 id="title">About me</h1>
           <div id="infoBox">
             <img src={Sebbe} alt="" id="sebbeProfil" />
             <div id="bars">

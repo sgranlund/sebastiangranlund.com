@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-
+import React, { useState, useEffect, useCallback } from "react";
+import { useHistory } from "react-router-dom";
 import { AboutMePageView } from "../VIEW/AboutMePageView";
 
 function AboutMePage() {
@@ -55,7 +55,17 @@ function AboutMePage() {
       });
     }, period);
   }, []);
-  return <AboutMePageView one={one} two={two} three={three} four={four} />;
+  const history = useHistory();
+  const handleOnClick = useCallback(() => history.push("/"), [history]);
+  return (
+    <AboutMePageView
+      one={one}
+      two={two}
+      three={three}
+      four={four}
+      handleOnClick={handleOnClick}
+    />
+  );
 }
 
 export default AboutMePage;

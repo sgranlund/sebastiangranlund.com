@@ -12,3 +12,11 @@
 #linkStyle {
   color: white;
 }
+@media screen and (max-width: 400px) {
+  #footer {
+    width: 106%;
+  }
+  #contact {
+    flex-direction: column;
+  }
+}

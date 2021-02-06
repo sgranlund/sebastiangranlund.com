@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { HashRouter } from "react-router-dom";
 import "./CSS/landingPage.css";
 import "./CSS/homeButtonAni.css";
 import "./CSS/aboutMe.css";
@@ -16,7 +16,7 @@ import routeUrls from "./COMPONENTS/navLink";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter>
       <Switch>
         <Route path={routeUrls.PROJECT}>
           <ProjectPage />
@@ -27,11 +27,11 @@ ReactDOM.render(
         <Route path={routeUrls.WORK}>
           <WorkPage />
         </Route>
-        <Route path="/">
+        <Route path={routeUrls.HOME}>
           <LandingPage />
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
