@@ -1,12 +1,15 @@
 #sebbeProfil {
   object-fit: cover;
   width: 30%;
-  padding-left: 10%;
+  max-height: 100%;
 }
 #infoBox {
   width: 100%;
   display: flex;
   position: relative;
+  margin-top: 40%;
+  display: flex;
+  justify-content: center;
 }
 #infoText {
   padding-left: 20%;
@@ -22,7 +25,7 @@
   width: 95%;
   margin-top: 10%;
   z-index: 1;
-  padding: 10%;
+  padding: 0%;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -30,6 +33,27 @@
   display: flex;
   flex-direction: column;
 }
+#para {
+  margin-top: 3%;
+  width: 30%;
+  color: white;
+}
 #text {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#skidsebbe {
+  margin-top: 3%;
+  width: 30%;
+
+  object-fit: cover;
+  margin-left: 10%;
+  max-height: 50%;
+}
+#bars {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
 }

@@ -1,13 +1,23 @@
 import bground from "../images/bground.jpeg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
-
-export const ProjectPageView = ({}) => {
+import Gallery from "react-photo-gallery";
+import { photos } from "../images/photos";
+import Footer from "../COMPONENTS/footer";
+export const ProjectPageView = ({ setIndex, setUpdate }) => {
   return (
     <div>
       <div className="landingPage">
         <h2 className="title">Sebastian Granlund</h2>
 
         <Logo id="homeButton" onClick={() => (window.location.pathname = "")} />
+        <div id="gallery">
+          <Gallery
+            photos={photos}
+            onClick={(e, { index }) => (setIndex(index), setUpdate(true))}
+          />
+          ;
+        </div>
+        <Footer />
       </div>
     </div>
   );

@@ -13,10 +13,10 @@ type Div = {
 const Container = Styled.div<Div>`
   div{
       position:relative;
-      margin-left:70%;
+      margin-left:0%;
   }
 progress {
-    margin-right: 8px;
+    margin-right: 0px;
     position:relative;
    
   }
@@ -52,7 +52,8 @@ progress {
     left:${(props) => props.value}%
  
 }
-
+p{
+    color:white;}
 `;
 
 const LvlBar = ({ value, max, color, width, nom }) => {
