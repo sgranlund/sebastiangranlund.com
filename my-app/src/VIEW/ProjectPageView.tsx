@@ -11,6 +11,7 @@ export const ProjectPageView = ({ setIndex, setUpdate, handleOnClick }) => {
         <h2 className="title">Sebastian Granlund</h2>
 
         <Logo id="homeButton" onClick={handleOnClick} />
+        <h1 id="title">Projects</h1>
         <div id="gallery">
           <Gallery
             photos={photos}

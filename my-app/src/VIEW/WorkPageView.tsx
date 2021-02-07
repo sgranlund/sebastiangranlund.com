@@ -1,4 +1,4 @@
-import bground from "../images/bground.jpeg";
+import sebastian from "../images/Sebastian.jpg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
 import Footer from "../COMPONENTS/footer";
 import CV from "react-cv";
@@ -8,27 +8,30 @@ export const WorkPageView = ({ handleOnClick }) => {
       <div className="landingPage">
         <h2 className="title">Sebastian Granlund</h2>
         <Logo id="homeButton" onClick={handleOnClick} />
-
+        <h1 id="title">CV</h1>
         <CV
           personalData={{
-            name: "John Doe",
-            title: "Senior Software Developer",
-            image: "https://bulma.io/images/placeholders/128x128.png",
+            name: "Sebastian Granlund",
+            title: "Mechatronics Engineering Student",
+            image: sebastian,
             contacts: [
-              { type: "email", value: "john@example.com" },
-              { type: "phone", value: "+00 (123) 456 78 90" },
-              { type: "location", value: "New York" },
-              { type: "website", value: "example.com" },
-              { type: "linkedin", value: "linkedin.com/in/notexists" },
-              { type: "twitter", value: "twitter.com/404" },
-              { type: "github", value: "github.com/404" },
+              { type: "email", value: "sgran@kth.se" },
+              { type: "phone", value: "+46 732 68 88 83" },
+              { type: "location", value: "Stockholm" },
+              { type: "website", value: "sebastiangranlund.com" },
+              {
+                type: "linkedin",
+                value: "linkedin.com/in/sebastian-granlund-6a7a8ab1/",
+              },
+              { type: "github", value: "github.com/sgranlund" },
             ],
           }}
           sections={[
             {
               type: "text",
               title: "Career Profile",
-              content: "When I was child, I always want to be a developer.",
+              content:
+                "Analytical problem solver who have lost to much sleep trying to solve problems. \nFormer alpine skier who never misses an opportunity to go to the mountains. Creative soul who likes to do things “my way”",
               icon: "usertie",
             },
             {
@@ -37,103 +40,144 @@ export const WorkPageView = ({ handleOnClick }) => {
               icon: "graduation",
               items: [
                 {
-                  title: "Computer Engineering (BS)",
-                  authority: "University",
-                  authorityWebSite: "https://sample.edu",
-                  rightSide: "2013 - 2017",
+                  title: "Design Engineer 300hp, KTH",
+                  authority:
+                    "Design and Product realization, Msc in Mechatronics",
+                  authorityWebSite:
+                    "https://www.kth.se/utbildning/civilingenjor/design-produktframtagning/design-och-produktframtagning-civilingenjor-300-hp-1.4118",
+                  rightSide: "2017 - 2022",
                 },
                 {
-                  title: "Some Department (PHD)",
-                  authority: "Another University",
-                  authorityWebSite: "https://sample.edu",
-                  rightSide: "2017 - Present",
+                  title: "Summer courses 15hp",
+                  authority: "In C++ and beverage knowledge",
+                  authorityWebSite: "",
+                  rightSide: "2020",
+                },
+                {
+                  title: "Term Abroad University of Bristol",
+                  authority: "One term abroad,researching solar panels",
+                  authorityWebSite: "https://www.bristol.ac.uk/",
+                  rightSide: "2020",
+                },
+                {
+                  title: "Economics, Katedralskolan",
+                  authority: "High School, average grade B",
+                  authorityWebSite: "https://bristol.com",
+                  rightSide: "2013-2016",
                 },
               ],
             },
             {
               type: "experiences-list",
               title: "Experiences",
-              description: "Optional",
+              description: "",
               icon: "archive",
               items: [
                 {
-                  title: "Lead Software Developer",
-                  company: "Some Company Example INC",
-                  description: "I'm working as a lead developer yeeeey!",
-                  companyWebSite: "http://somecompanyexample.com",
+                  title: "Summer Intern Acoustic",
+                  company: "Scania Group",
+                  description: "Summer intern at Scania' acoustic department",
+                  companyWebSite: "https://www.scania.com/",
                   companyMeta: "",
-                  datesBetween: "2017.10 - Present",
-                  descriptionTags: ["Javascript", "React"],
+                  datesBetween: "2019.06 - 2019.09",
+                  descriptionTags: ["ArtemiS Suite"],
                 },
                 {
-                  title: "Software Developer",
-                  company: "Some Company Example INC",
-                  description:
-                    "I'm using ReactJS and working as a front-end developer",
-                  companyWebSite: "http://somecompanyexample.com",
-                  companyMeta: "Little info about company",
-                  datesBetween: "2016.8 - 2017.10",
+                  title: "Customer host, Cashier, Storeman",
+                  company: "Systembolaget",
+                  description: "Advicing customers",
+                  companyWebSite: "https://www.citygross.se/",
+                  companyMeta: "",
+                  datesBetween: "2018.05 - 2019.06",
                 },
                 {
-                  title: "Intern",
-                  company: "Some Software Example INC",
-                  description: "I was warming up.",
+                  title: "Cashier, Storeman",
+                  company: "City Gross",
+                  description: "",
                   companyWebSite: "http://someexamplecompany.com",
-                  companyMeta: "SF USA",
-                  datesBetween: "2012.06 - 2012.10",
+                  companyMeta: "",
+                  datesBetween: "2015.05 - 2017.10",
                 },
-              ],
-            },
-            {
-              type: "projects-list",
-              title: "Projects",
-              description: "Optional",
-              icon: "tasks",
-              groups: [
                 {
-                  sectionHeader: "Company Name",
-                  description: "Optional",
-                  items: [
-                    {
-                      title: "Project",
-                      projectUrl: "optional",
-                      description: "Optional",
-                    },
-                    {
-                      title: "Project",
-                      projectUrl: "optional",
-                      description: "Optional",
-                    },
-                    {
-                      title: "Project",
-                      projectUrl: "optional",
-                      description: "Optional",
-                    },
-                  ],
+                  title: "Founder",
+                  company: "Twizzly UF",
+                  description: "Offered marketing on pizza boxes.",
+                  companyWebSite: "",
+                  companyMeta: "",
+                  datesBetween: "2015.08 - 2016.05",
                 },
               ],
             },
+            // {
+            //   type: "projects-list",
+            //   title: "Projects",
+            //   description: "Optional",
+            //   icon: "tasks",
+            //   groups: [
+            //     {
+            //       sectionHeader: "Company Name",
+            //       description: "Optional",
+            //       items: [
+            //         {
+            //           title: "Project",
+            //           projectUrl: "optional",
+            //           description: "Optional",
+            //         },
+            //         {
+            //           title: "Project",
+            //           projectUrl: "optional",
+            //           description: "Optional",
+            //         },
+            //         {
+            //           title: "Project",
+            //           projectUrl: "optional",
+            //           description: "Optional",
+            //         },
+            //       ],
+            //     },
+            //   ],
+            // },
             {
-              type: "common-list",
-              title: "Conferences & Certificates",
+              type: "experiences-list",
+              title: "Projects",
               description: "",
-              icon: "comments",
+              icon: "tasks",
               items: [
                 {
-                  title: "Some Conferences / 2019",
-                  authority: "SomeConf",
-                  authorityWebSite: "https://www.someconf.somesome",
+                  title: "",
+                  company: "Click here to see all the projects",
+                  description: "",
+                  companyWebSite: "www.sebastiangranlund.com/#/project",
+                  companyMeta: "",
+                },
+              ],
+            },
+
+            {
+              type: "experiences-list",
+              title: "Comissions of Trust",
+              description: "",
+              icon: "archive",
+              items: [
+                {
+                  title: "Engineers without borders",
+                  company: "",
+                  description:
+                    "Head of Inspire - responsible for inspiring youth to become engineers",
+                  companyWebSite: "",
+                  companyMeta: "",
+                  datesBetween: "2018.01 - 2018.05",
+                  descriptionTags: ["Python"],
                 },
                 {
-                  title: "Some Conferences / 2019",
-                  authority: "SomeConf",
-                  authorityMeta: "Speaker",
-                  authorityWebSite: "https://www.someconf.somesome",
-                  rightSide: "test",
-                },
-                {
-                  title: "Some Conferences / 2012",
-                  authorityMeta: "Speaker",
+                  title: "Kommunikationsnämnden",
+                  company: "",
+                  description:
+                    "Webmaster – responsible web management of Maskinsektionens website.",
+                  companyWebSite: "",
+                  companyMeta: "",
+                  datesBetween: "2020.08 - Present",
+                  descriptionTags: ["Raspberry Pi"],
                 },
               ],
             },
@@ -147,7 +191,11 @@ export const WorkPageView = ({ handleOnClick }) => {
                   authorityMeta: "Professional",
                 },
                 {
-                  authority: "Spanish",
+                  authority: "Swedish",
+                  authorityMeta: "Mother Tongue",
+                },
+                {
+                  authority: "French",
                   authorityMeta: "Beginner",
                 },
               ],
@@ -160,16 +208,32 @@ export const WorkPageView = ({ handleOnClick }) => {
                 "React",
                 "Javascript",
                 "CSS",
-                "SQL",
-                "SomeTech",
-                "CoolTech",
+                "C",
+                "C++",
+                "Python",
+                "Firebase",
+                "MatLab",
+                "μVision",
+                "COMSOL",
+                "Ansys Fluent",
+                "Simulink",
+                "ArtemiS Suite",
+                "CAD-Solid Edge",
+                "Microsoft Office",
+                "EduPack",
+                "Eagle PCB",
+                "Adobe-family",
               ],
             },
             {
               type: "tag-list",
-              title: "Hobbies & Interests",
+              title: "Other Merits",
               icon: "cubes",
-              items: ["Photography", "Poetry"],
+              items: [
+                "B- Drivers license",
+                "Svensson Svenfeldts scholarship",
+                "First prize Ung Företagsamhet SM 2016",
+              ],
             },
           ]}
           branding={false} // or false to hide it.

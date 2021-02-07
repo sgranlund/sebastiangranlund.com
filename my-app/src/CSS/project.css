@@ -1,0 +1,20 @@
+#projectCanvas img {
+  width: 40%;
+  margin: 5%;
+  object-fit: cover;
+}
+#projectCanvas p {
+  width: 20%;
+  margin: 5%;
+  color: white;
+}
+#projectCanvas {
+  display: flex;
+  justify-content: center;
+}
+#reportLink {
+  color: orange;
+}
+#reportLink:hover {
+  color: white;
+}
