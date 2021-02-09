@@ -1,4 +1,4 @@
-import sebastian from "../images/Sebastian.jpg";
+import sebastian from "../images/Sebastian128x128.jpg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
 import Footer from "../COMPONENTS/footer";
 import CV from "react-cv";

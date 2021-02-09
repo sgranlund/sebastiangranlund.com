@@ -3,6 +3,7 @@ import { ProjectPageView } from "../VIEW/ProjectPageView";
 import { ProjectIndexView } from "../VIEW/projectTempPage";
 import { useHistory } from "react-router-dom";
 import routeUrls from "../COMPONENTS/navLink";
+
 function ProjectPage() {
   const [index, setIndex] = useState("");
   const [update, setUpdate] = useState(false);
