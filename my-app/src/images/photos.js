@@ -9,7 +9,7 @@ export const photos = [
   {
     src: takbox,
     width: 1280,
-    height: 946,
+    height: 946, 
   },
   {
     src: montBlanc,
