@@ -18,28 +18,28 @@ export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
             <div id="bars">
               <LvlBar
                 color={"orange"}
-                nom={"Python"}
+                nom={"Python, C, C++"}
                 width={"250px"}
                 value={one}
                 max={100}
               />
               <LvlBar
                 color={"orange"}
-                nom={"C"}
+                nom={"ROS, Robotic Operating System"}
                 width={"250px"}
                 value={two}
                 max={100}
               />
               <LvlBar
                 color={"orange"}
-                nom={"Solid Edge"}
+                nom={"CAD, Solid Edge"}
                 width={"250px"}
                 value={three}
                 max={100}
               />
               <LvlBar
                 color={"orange"}
-                nom={"React"}
+                nom={"Webdev, Javscript, React, Typescript, GraphQL"}
                 width={"250px"}
                 value={four}
                 max={100}
@@ -48,18 +48,17 @@ export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
           </div>
           <div id="text">
             <p id="para">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text. All the Lorem Ipsum generators on
-              the Internet tend to repeat predefined chunks as necessary, making
-              this the first true generator on the Internet. It uses a
-              dictionary of over 200 Latin words, combined with a handful of
-              model sentence structures, to generate Lorem Ipsum which looks
-              reasonable. The generated Lorem Ipsum is therefore always free
-              from repetition, injected humour, or non-characteristic words etc.
+              I'm a 4th year mechtronics student who like to challenge myself.
+              Wherther that's on a pair of skis in the mountains or working on a
+              new project is equally rewarding for me.
+              <br />
+              <br />
+              When I'm not skiing or working on my next project.
+              <br />
+              <br />
+              In a group I'm usually the one who takes charge. This is not
+              because I love having power over others, it's for the reason that
+              I do not like to sit around rolling my thumbs.
             </p>
             <img src={skidor} id="skidsebbe" />
           </div>

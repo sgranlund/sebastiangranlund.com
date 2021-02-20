@@ -5,11 +5,12 @@ import stolen from "./stolen.png";
 import container from "./container.png";
 import timeline from "./timeline.png";
 import plant from "./plantWatering.jpg";
+import TEG from "./TEG.jpg";
 export const photos = [
   {
     src: takbox,
     width: 1280,
-    height: 946, 
+    height: 946,
   },
   {
     src: montBlanc,
@@ -42,10 +43,11 @@ export const photos = [
     height: 675,
   },
   {
-    src: plant,
+    src: TEG,
     width: 900,
     height: 675,
   },
+
   // {
   //   src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
   //   width: 4927,

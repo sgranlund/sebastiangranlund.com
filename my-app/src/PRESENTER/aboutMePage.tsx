@@ -14,7 +14,7 @@ function AboutMePage() {
       setOne((oldValue) => {
         const newValue = oldValue + rate;
 
-        if (newValue === 50) {
+        if (newValue === 70) {
           clearInterval(interval);
         }
 
@@ -25,7 +25,7 @@ function AboutMePage() {
       setTwo((oldValue) => {
         const newValue = oldValue + rate;
 
-        if (newValue === 70) {
+        if (newValue === 50) {
           clearInterval(interval1);
         }
 
@@ -36,7 +36,7 @@ function AboutMePage() {
       setThree((oldValue) => {
         const newValue = oldValue + rate;
 
-        if (newValue === 20) {
+        if (newValue === 80) {
           clearInterval(interval2);
         }
 
@@ -47,7 +47,7 @@ function AboutMePage() {
       setFour((oldValue) => {
         const newValue = oldValue + rate;
 
-        if (newValue === 100) {
+        if (newValue === 90) {
           clearInterval(interval3);
         }
 

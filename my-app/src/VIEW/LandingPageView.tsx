@@ -9,7 +9,6 @@ export const LandingPageView = ({}) => {
 
         <Logo id="homeButton" onClick={() => (window.location.pathname = "")} />
       </div>
-
       {<Navbar />}
     </div>
   );
