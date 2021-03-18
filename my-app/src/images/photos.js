@@ -1,16 +1,16 @@
-import takbox from "./takboxRosa.jpg";
+import takbox from "./takboxRosaGallery.jpg";
 import montBlanc from "./montBlanc.jpg";
-import trangiaNatur from "./trangiaNatur.jpg";
-import stolen from "./stolen.png";
-import container from "./container.png";
-import timeline from "./timeline.png";
-import plant from "./plantWatering.jpg";
-import TEG from "./TEG.jpg";
+import trangiaNatur from "./trangiaNaturGallery.jpg";
+import stolen from "./stolenGallery.png";
+import container from "./containerGallery.png";
+import timeline from "./timelineGallery.png";
+import plant from "./plantWateringGallery.jpg";
+import TEG from "./TEGGallery.jpg";
 export const photos = [
   {
     src: TEG,
-    width: 900,
-    height: 675,
+    width: 4416,
+    height: 2947,
   },
   {
     src: plant,
