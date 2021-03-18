@@ -18,7 +18,6 @@ export const ProjectPageView = ({ setIndex, setUpdate, handleOnClick }) => {
             photos={photos}
             onClick={(e, { index }) => (setIndex(index), setUpdate(true))}
           />
-          ;
         </div>
         <Footer />
       </div>
