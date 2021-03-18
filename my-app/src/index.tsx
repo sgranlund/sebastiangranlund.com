@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
-import "./CSS/landingPage.css";
-import "./CSS/homeButtonAni.css";
-import "./CSS/aboutMe.css";
+import "./CSS/landingPageNew.css";
+import "./CSS/homeButtonAni2.css";
+import "./CSS/aboutMeNew.css";
 import "./CSS/projectPage.css";
-import "./CSS/index.css";
+import "./CSS/indexNew.css";
 import LandingPage from "./PRESENTER/landingPage";
 import ProjectPage from "./PRESENTER/projectPage";
 import AboutMePage from "./PRESENTER/aboutMePage";

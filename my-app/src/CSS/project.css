@@ -1,12 +1,11 @@
 #projectCanvas img {
-  width: 40%;
+  max-width: 40%;
   margin: 5%;
   object-fit: cover;
 }
 #projectCanvas p {
   width: 20%;
   margin: 5%;
-  color: white;
 }
 #projectCanvas {
   display: flex;
@@ -17,4 +16,17 @@
 }
 #reportLink:hover {
   color: white;
+}
+@media screen and (max-width: 1280px) {
+  #projectCanvas {
+    flex-direction: column;
+  }
+  #projectCanvas img {
+    max-width: 60%;
+    margin-left: 20%;
+  }
+  #projectCanvas p {
+    width: 60%;
+    margin-left: 20%;
+  }
 }

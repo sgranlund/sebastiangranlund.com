@@ -5,6 +5,9 @@
   margin-top: 10%;
   text-align: center;
 }
+#footer a:hover {
+  color: orange;
+}
 #contact {
   display: flex;
   justify-content: space-between;

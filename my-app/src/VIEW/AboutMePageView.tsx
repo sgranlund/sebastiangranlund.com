@@ -1,5 +1,6 @@
 import bground from "../images/bground.jpeg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
+
 import Sebbe from "../images/Sebastian.jpg";
 import skidor from "../images/skidsebbe.jpg";
 import LvlBar from "../COMPONENTS/lvlBar";
@@ -59,8 +60,9 @@ export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
               <br />
               <br />
               In a group I'm usually the one who takes charge. This is not
-              because I love having power over others, it's for the reason that
-              I do not like when a project i not moving forward.
+              because I enjoy having power over others, it's for the reason that
+              I in that position can influence the project and make sure the
+              team delivers it's very best.
             </p>
             <img src={skidor} id="skidsebbe" />
           </div>

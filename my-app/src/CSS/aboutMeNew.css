@@ -1,0 +1,90 @@
+#sebbeProfil {
+  object-fit: cover;
+  width: 20%;
+  max-height: 100%;
+}
+#infoBox {
+  width: 100%;
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#textPicBar {
+  width: 100%;
+  margin-top: 5%;
+
+  z-index: 1;
+  padding: 0%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#para {
+  margin-top: 7%;
+  width: 30%;
+}
+#skidsebbe {
+  margin-top: 7%;
+  width: 30%;
+  height: 50%;
+  object-fit: cover;
+  margin-left: 10%;
+}
+#bars {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+#title {
+  text-align: center;
+  font-size: 300%;
+  margin-bottom: 7%;
+}
+@media screen and (max-width: 400px) {
+  #text {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 105%;
+  }
+  #infoBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 105%;
+  }
+  #sebbeProfil {
+    object-fit: cover;
+    width: 100%;
+    max-height: 80%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+  }
+  #bars {
+    margin-bottom: 15%;
+  }
+  #skidsebbe {
+    margin-top: 3%;
+    width: 100%;
+    height: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 15%;
+  }
+  #para {
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+  }
+}

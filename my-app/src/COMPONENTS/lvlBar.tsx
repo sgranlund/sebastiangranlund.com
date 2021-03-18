@@ -32,7 +32,7 @@ progress {
     height: 16px;
     border-radius: 2px;
     border-style:solid;
-    border-color:black;
+    border-color:orange;
     background-color: transparent;
   }  
 
