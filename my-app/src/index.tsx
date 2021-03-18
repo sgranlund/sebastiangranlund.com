@@ -10,6 +10,7 @@ import LandingPage from "./PRESENTER/landingPage";
 import ProjectPage from "./PRESENTER/projectPage";
 import AboutMePage from "./PRESENTER/aboutMePage";
 import WorkPage from "./PRESENTER/workPage";
+import PDF from "./COMPONENTS/pdfView";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import routeUrls from "./COMPONENTS/navLink";
@@ -18,6 +19,9 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       <Switch>
+        <Route path={routeUrls.TEST}>
+          <PDF />
+        </Route>
         <Route path={routeUrls.PROJECT}>
           <ProjectPage />
         </Route>

@@ -53,12 +53,14 @@ export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
               new project is equally rewarding for me.
               <br />
               <br />
-              When I'm not skiing or working on my next project.
+              When I'm not skiing or working on my next project. I enjoy reading
+              books to further develope my knowledge or participate in a new
+              sport of some sort.
               <br />
               <br />
               In a group I'm usually the one who takes charge. This is not
               because I love having power over others, it's for the reason that
-              I do not like to sit around rolling my thumbs.
+              I do not like when a project i not moving forward.
             </p>
             <img src={skidor} id="skidsebbe" />
           </div>

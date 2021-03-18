@@ -8,15 +8,35 @@ import plant from "./plantWatering.jpg";
 import TEG from "./TEG.jpg";
 export const photos = [
   {
+    src: TEG,
+    width: 900,
+    height: 675,
+  },
+  {
+    src: plant,
+    width: 900,
+    height: 675,
+  },
+  {
+    src: timeline,
+    width: 1920,
+    height: 944,
+  },
+  {
+    src: container,
+    width: 662,
+    height: 732,
+  },
+  {
     src: takbox,
     width: 1280,
     height: 946,
   },
-  {
-    src: montBlanc,
-    width: 603,
-    height: 603,
-  },
+  // {
+  //   src: montBlanc,
+  //   width: 603,
+  //   height: 603,
+  // },
   {
     src: trangiaNatur,
     width: 1334,
@@ -26,26 +46,6 @@ export const photos = [
     src: stolen,
     width: 774,
     height: 760,
-  },
-  {
-    src: container,
-    width: 662,
-    height: 732,
-  },
-  {
-    src: timeline,
-    width: 1920,
-    height: 944,
-  },
-  {
-    src: plant,
-    width: 900,
-    height: 675,
-  },
-  {
-    src: TEG,
-    width: 900,
-    height: 675,
   },
 
   // {

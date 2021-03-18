@@ -1,39 +1,41 @@
-import container from "../../images/container.png";
+import takbox from "../../images/takboxRosa.jpg";
 
-const Project4 = ({}) => {
+const Project0 = ({}) => {
   return (
     <div>
-      <h1 id="title">FTI-container </h1>
+      <h1 id="title">Takbox </h1>
       <div id="projectCanvas">
-        <img src={container} alt="" />
+        <img src={takbox} alt="" />
         <p>
-          Togheter with FTI I with a group of 5 other people were tasked with
-          developing a solution for increasing their container emptying
-          effecieny. They wanted a solution whhich decreased the time they had
-          to go out and empty their containers.
+          In the second year of my Design Engineer degree I together with 5
+          other students designed a roof box. The objective was to identify an
+          already existing mechanism and improve it. Usually a roof top box
+          opens from one side but with our improved mechanism it opens from both
+          sides and also along the longest side which helps the accessibility of
+          the stored goods. During the project the focus to make the mechanism
+          as robust as possible doing solid mechanic calculation to prove this.
           <br />
           <br />
-          Me and my team designed a compressing mechanism which at given times
-          compresses the waste inside giving room for more. In the project we
-          got a lot of hands on work with CAD (Solid Edge) designing the whole
-          mechanism indside one of FTIs containers. We also practised iterative
-          designa and reaserach methods for designing.
+          In this project I practised my skills in Solid Edge and MatLab.
           <br />
           <br />
-          <a id="reportLink" href="">
+          <a
+            id="reportLink"
+            href="https://drive.google.com/file/d/1FycsBMWB-9U_pzHTH38UlzF53I_Jr3n4/view?usp=sharing"
+          >
             Link to full report
           </a>
           <br />
           <br />
           <a
             id="reportLink"
-            href="https://www.kth.se/student/kurser/kurs/MF1040"
+            href="https://www.kth.se/student/kurser/kurs/MF1064"
           >
-            Link to course web MF1063
+            Link to course web MF1064
           </a>
         </p>
       </div>
     </div>
   );
 };
-export default Project4;
+export default Project0;

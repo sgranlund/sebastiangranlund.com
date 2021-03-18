@@ -4,5 +4,6 @@ enum routeUrls {
   BLOGG = "/blogg",
   WORK = "/workexp",
   ABOUT = "/about",
+  TEST = "/test",
 }
 export default routeUrls;

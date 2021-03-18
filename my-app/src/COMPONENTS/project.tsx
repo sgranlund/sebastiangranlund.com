@@ -18,9 +18,9 @@ const Project = ({ index, handleOnClick2 }) => {
       {index === 2 && <Project2 />}
       {index === 3 && <Project3 />}
       {index === 4 && <Project4 />}
-      {index === 5 && <Project5 />}
-      {index === 6 && <Project6 />}
-      {index === 7 && <Project7 />}
+      {index === 5 && <Project6 />}
+      {index === 6 && <Project7 />}
+      {index === 7 && <Project5 />}
     </div>
   );
 };

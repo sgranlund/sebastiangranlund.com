@@ -1,28 +1,43 @@
-import plant from "../../images/plantWatering.jpg";
+import trangiaNatur from "../../images/trangiaNatur.jpg";
 
-const Project6 = ({}) => {
+const Project2 = ({}) => {
   return (
     <div>
-      <h1 id="title">Automatic plant watering system </h1>
+      <h1 id="title">Trangia bag</h1>
       <div id="projectCanvas">
-        <img src={plant} alt="" />
+        <img src={trangiaNatur} alt="" />
         <p>
-          The Automatic Plant Watering System was a project I made to keep my
-          plant hydrated when I’m out of town. The idea is to have moisture
-          sensors in the plants hooked up to an Arduino which is connected to a
-          pump in a water tank. When the moisture is to low, the Arduino signals
-          the pumps and they feed water to the plants.
+          During my second year in my Design Engineer degree I together with 3
+          other students where tasked to develop a new product for Trangia. The
+          scope was general, and we could design anything which we deemed
+          missing in their assortment. After researching their assortment and
+          their competitors we realized that the storing of the kitchen had room
+          for improvement. <br />
+          <br /> The kitchen has a strap that holds everything to place when
+          it’s stored in the bag. The problem with this strap is that in
+          especially cold weather it’s immensely hard to loosen. Therefore, we
+          designed a bag that tightly holds the kitchen without the need of the
+          strap. In this project we learned a lot about prototyping which you
+          can read more about in the full report.
           <br />
           <br />
-          In addition to just watering the plants it’s also connected to an
-          application which makes it able for me to in real time see the
-          moisture of the plants. This is a good verifier if I’m ever worried
-          the plants aren’t getting enough water.
+          <a
+            id="reportLink"
+            href="https://drive.google.com/file/d/11FNFnIMBriLGh9lI3bpWI4WF-zLRfS--/view?usp=sharing"
+          >
+            Link to full report
+          </a>
           <br />
           <br />
+          <a
+            id="reportLink"
+            href="https://www.kth.se/student/kurser/kurs/MF1062"
+          >
+            Link to course web MF1062
+          </a>
         </p>
       </div>
     </div>
   );
 };
-export default Project6;
+export default Project2;

@@ -1,22 +1,28 @@
-import montBlanc from "../../images/montBlanc.jpg";
+import plant from "../../images/plantWatering.jpg";
 
-const Project1 = ({}) => {
+const Project6 = ({}) => {
   return (
     <div>
-      <h1 id="title">Mount Blanc mobile light</h1>
+      <h1 id="title">Automatic plant watering system </h1>
       <div id="projectCanvas">
-        <img src={montBlanc} alt="" />
+        <img src={plant} alt="" />
         <p>
-          During my first year in my Design Engineer degree me and 3 other
-          students designed a mobile light. The objective was to design a mobile
-          light for Mount Blancs customer segment. The result was a pocket light
-          with design close to the famous Mount Blanc pencils. <br />
-          <br /> In this project I understood the importance of iterating during
-          product development. It was also my first time with CAD- Solid Edge an
-          eye opening project understanding the power of CAD.
+          The Automatic Plant Watering System was a project I made to keep my
+          plant hydrated when I’m out of town. The idea is to have moisture
+          sensors in the plants hooked up to an Arduino which is connected to a
+          pump in a water tank. When the moisture is to low, the Arduino signals
+          the pumps and they feed water to the plants.
+          <br />
+          <br />
+          In addition to just watering the plants it’s also connected to an
+          application which makes it able for me to in real time see the
+          moisture of the plants. This is a good verifier if I’m ever worried
+          the plants aren’t getting enough water.
+          <br />
+          <br />
         </p>
       </div>
     </div>
   );
 };
-export default Project1;
+export default Project6;

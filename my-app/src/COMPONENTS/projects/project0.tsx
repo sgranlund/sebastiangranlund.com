@@ -1,38 +1,37 @@
-import takbox from "../../images/takboxRosa.jpg";
+import TEG from "../../images/TEG.jpg";
 
-const Project0 = ({}) => {
+const Project7 = ({}) => {
   return (
     <div>
-      <h1 id="title">Takbox </h1>
+      <h1 id="title">Bachelor Thesis Project </h1>
+
       <div id="projectCanvas">
-        <img src={takbox} alt="" />
+        <img src={TEG} alt="" />
         <p>
-          In the second year of my Design Engineer degree I together with 5
-          other students designed a roof box. The objective was to identify an
-          already existing mechanism and improve it. Usually a roof top box
-          opens from one side but with our improved mechanism it opens from both
-          sides and also along the longest side which helps the accessibility of
-          the stored goods. During the project the focus to make the mechanism
-          as robust as possible doing solid mechanic calculation to prove this.
+          During my third year I did my Bachelor Thesis Project. The Thesis was
+          made at Bristol University Reasearching improvements regarding Solar
+          Panels. The research was regarding the possiblity to use TEGs to
+          increase the power output from a Solar Panel modules. Using the waste
+          heat to generate power. Using Ansys Fluent simulation of this was
+          made.
           <br />
           <br />
-          In this project I practised my skills in Solid Edge and MatLab.
-          <br />
-          <br />
-          <a id="reportLink" href="">
-            Link to full report
-          </a>
           <br />
           <br />
           <a
             id="reportLink"
-            href="https://www.kth.se/student/kurser/kurs/MF1064"
+            href="https://drive.google.com/file/d/1o8N81GyXx-zSbltFet75WI3LUKH56RW_/view?usp=sharing"
           >
-            Link to course web MF1064
+            Bachelor Thesis Report
+          </a>
+          <br />
+          <br />
+          <a id="reportLink" href="https://www.bristol.ac.uk/">
+            Link to Bristol University
           </a>
         </p>
       </div>
     </div>
   );
 };
-export default Project0;
+export default Project7;
