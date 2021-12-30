@@ -10,7 +10,7 @@ export const ProjectPageView = ({ setIndex, setUpdate, handleOnClick }) => {
     <div>
       <div className="landingPage">
         <h2 className="title">Sebastian Granlund</h2>
-        <LogoCorner text="sgranlund" onClick= {handleOnClick} />
+        <LogoCorner text="SG" onClick= {handleOnClick} />
 
         <h1 id="title">Projects</h1>
         <div id="gallery">

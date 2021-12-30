@@ -7,7 +7,7 @@ export const LandingPageView = ({}) => {
   return (
    
       <div className="landingPage">
-      <LogoCorner onClick={()=>{}}text="sgranlund"/>
+      <LogoCorner onClick={()=>{}}text="SG"/>
      
        
 

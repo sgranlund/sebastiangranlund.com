@@ -7,7 +7,7 @@ export const AboutMePageView = ({ handleOnClick }) => {
   return (
     <div id="content">
       <div className="landingPage">
-      <LogoCorner text="sgranlund" onClick= {handleOnClick} />
+      <LogoCorner text="SG" onClick= {handleOnClick} />
         <div id="textPicBar">
           <h1 id="title">About me</h1>
         
