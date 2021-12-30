@@ -2,12 +2,14 @@ import sebastian from "../images/Sebastian128x128.jpg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
 import Footer from "../COMPONENTS/footer";
 import CV from "react-cv";
+import LogoCorner from "../COMPONENTS/logoCorner";
+
 export const WorkPageView = ({ handleOnClick }) => {
   return (
     <div>
       <div className="landingPage">
         <h2 className="title">Sebastian Granlund</h2>
-        <Logo id="homeButton" onClick={handleOnClick} />
+        <LogoCorner text="sgranlund" onClick= {handleOnClick} />
         <h1 id="title">CV</h1>
         <CV
           personalData={{
@@ -62,7 +64,7 @@ export const WorkPageView = ({ handleOnClick }) => {
                 {
                   title: "Economics, Katedralskolan",
                   authority: "High School, average grade B",
-                  authorityWebSite: "https://bristol.com",
+                  authorityWebSite: "https://www.linkoping.se/forskola-och-utbildning/gymnasieskola/kommunala-gymnasieskolor/katedralskolan/",
                   rightSide: "2013-2016",
                 },
               ],

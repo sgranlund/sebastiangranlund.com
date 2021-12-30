@@ -4,15 +4,13 @@ const Footer = () => {
     <div id="footer">
       <div id="contact">
         <div>
-          <h2>Email</h2>
-          <p>sgran@kth.se</p>
+          <a id="linkStyle" href={`mailto:${"sgran@kth.se"}`}>sgran@kth.se</a>
         </div>
         <div>
-          <h2>Phone</h2>
-          <p>+46732666666</p>
+
+          <p>+46732688883</p>
         </div>
         <div>
-          <h2>Linkedin</h2>
           <a
             id="linkStyle"
             href="https://www.linkedin.com/in/sebastian-granlund-6a7a8ab1/"

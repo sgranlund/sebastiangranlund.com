@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter } from "react-router-dom";
 import "./CSS/landingPageNew.css";
-import "./CSS/homeButtonAni2.css";
+//import "./CSS/homeButtonAni2.css";
 import "./CSS/aboutMeNew.css";
 import "./CSS/projectPage.css";
 import "./CSS/indexNew.css";
@@ -10,7 +10,6 @@ import LandingPage from "./PRESENTER/landingPage";
 import ProjectPage from "./PRESENTER/projectPage";
 import AboutMePage from "./PRESENTER/aboutMePage";
 import WorkPage from "./PRESENTER/workPage";
-import PDF from "./COMPONENTS/pdfView";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import routeUrls from "./COMPONENTS/navLink";
@@ -20,7 +19,7 @@ ReactDOM.render(
     <HashRouter>
       <Switch>
         <Route path={routeUrls.TEST}>
-          <PDF />
+          
         </Route>
         <Route path={routeUrls.PROJECT}>
           <ProjectPage />

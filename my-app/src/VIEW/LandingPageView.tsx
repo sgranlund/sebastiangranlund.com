@@ -1,18 +1,17 @@
-import bground from "../images/bground.jpeg";
-import { ReactComponent as Logo } from "../images/granlund.svg";
 
+import { ReactComponent as Logo } from "../images/granlund.svg";
+import TextAnimation from "../COMPONENTS/Animations/textAnimation"
 import Navbar from "../COMPONENTS/navbar";
+import LogoCorner from "../COMPONENTS/logoCorner"
 export const LandingPageView = ({}) => {
   return (
-    <div>
+   
       <div className="landingPage">
-        <h2 className="title">Sebastian Granlund</h2>
+      <LogoCorner onClick={()=>{}}text="sgranlund"/>
+     
+       
 
-        <Logo
-          id="homeButtonLand"
-          onClick={() => (window.location.pathname = "")}
-        />
-      </div>
+    
       {<Navbar />}
     </div>
   );

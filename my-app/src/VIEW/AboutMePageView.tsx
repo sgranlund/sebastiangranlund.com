@@ -1,70 +1,33 @@
-import bground from "../images/bground.jpeg";
 import { ReactComponent as Logo } from "../images/homebutton.svg";
-
 import Sebbe from "../images/Sebastian.jpg";
-import skidor from "../images/skidsebbe.jpg";
-import LvlBar from "../COMPONENTS/lvlBar";
 import Footer from "../COMPONENTS/footer";
+import LogoCorner from "../COMPONENTS/logoCorner";
 
-export const AboutMePageView = ({ one, two, three, four, handleOnClick }) => {
+export const AboutMePageView = ({ handleOnClick }) => {
   return (
     <div id="content">
       <div className="landingPage">
-        <Logo id="homeButton" onClick={handleOnClick} />
-
+      <LogoCorner text="sgranlund" onClick= {handleOnClick} />
         <div id="textPicBar">
           <h1 id="title">About me</h1>
-          <div id="infoBox">
-            <img src={Sebbe} alt="" id="sebbeProfil" />
-            <div id="bars">
-              <LvlBar
-                color={"orange"}
-                nom={"Python, C, C++"}
-                width={"250px"}
-                value={one}
-                max={100}
-              />
-              <LvlBar
-                color={"orange"}
-                nom={"ROS, Robotic Operating System"}
-                width={"250px"}
-                value={two}
-                max={100}
-              />
-              <LvlBar
-                color={"orange"}
-                nom={"CAD, Solid Edge"}
-                width={"250px"}
-                value={three}
-                max={100}
-              />
-              <LvlBar
-                color={"orange"}
-                nom={"Webdev, Javscript, React, Typescript, GraphQL"}
-                width={"250px"}
-                value={four}
-                max={100}
-              />
-            </div>
-          </div>
+        
           <div id="text">
             <p id="para">
-              I'm a 4th year mechtronics student who like to challenge myself.
+              I'm a 5th year mechtronics student who like to challenge myself.
               Wherther that's on a pair of skis in the mountains or working on a
-              new project is equally rewarding for me.
+              new project.
               <br />
               <br />
-              When I'm not skiing or working on my next project. I enjoy reading
+              When not skiing or working on the next project. I enjoy reading
               books to further develope my knowledge or participate in a new
               sport of some sort.
               <br />
               <br />
-              In a group I'm usually the one who takes charge. This is not
-              because I enjoy having power over others, it's for the reason that
-              I in that position can influence the project and make sure the
-              team delivers it's very best.
+              In a team I'm usually the one who takes charge. 
+              I like to voice my opinions, but I'm not the one who gets stubborn and only supports my own ideas. 
+              I keep an opened mind and tries includes everyone in the discussion.
             </p>
-            <img src={skidor} id="skidsebbe" />
+            <img src={Sebbe} id="skidsebbe" />
           </div>
           <Footer />
         </div>
