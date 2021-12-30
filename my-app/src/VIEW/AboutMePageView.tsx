@@ -1,7 +1,6 @@
-import { ReactComponent as Logo } from "../images/homebutton.svg";
 import Sebbe from "../images/Sebastian.jpg";
-import Footer from "../COMPONENTS/footer";
-import LogoCorner from "../COMPONENTS/logoCorner";
+import Footer from "../COMPONENTS/Footer/footer";
+import LogoCorner from "../COMPONENTS/logoCorners/logoCorner";
 
 export const AboutMePageView = ({ handleOnClick }) => {
   return (
@@ -9,7 +8,7 @@ export const AboutMePageView = ({ handleOnClick }) => {
       <div className="landingPage">
       <LogoCorner text="SG" onClick= {handleOnClick} />
         <div id="textPicBar">
-          <h1 id="title">About me</h1>
+          <h1 className="title">About me</h1>
         
           <div id="text">
             <p id="para">

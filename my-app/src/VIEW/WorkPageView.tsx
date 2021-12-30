@@ -1,16 +1,15 @@
 import sebastian from "../images/Sebastian128x128.jpg";
-import { ReactComponent as Logo } from "../images/homebutton.svg";
-import Footer from "../COMPONENTS/footer";
+import Footer from "../COMPONENTS/Footer/footer";
 import CV from "react-cv";
-import LogoCorner from "../COMPONENTS/logoCorner";
+import LogoCorner from "../COMPONENTS/logoCorners/logoCorner";
 
 export const WorkPageView = ({ handleOnClick }) => {
   return (
     <div>
       <div className="landingPage">
-        <h2 className="title">Sebastian Granlund</h2>
+
         <LogoCorner text="SG" onClick= {handleOnClick} />
-        <h1 id="title">CV</h1>
+        <h1 className="title">CV</h1>
         <CV
           personalData={{
             name: "Sebastian Granlund",

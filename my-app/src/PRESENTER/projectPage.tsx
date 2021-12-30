@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { ProjectPageView } from "../VIEW/ProjectPageView";
 import { ProjectIndexView } from "../VIEW/projectTempPage";
 import { useHistory } from "react-router-dom";
-import routeUrls from "../COMPONENTS/navLink";
+
 
 function ProjectPage() {
   const [index, setIndex] = useState("");
@@ -13,7 +13,7 @@ function ProjectPage() {
   const handleOnClick2 = useCallback(() => setUpdate(false), [update]);
 
   useEffect(() => {
-    console.log(index);
+
     if (update == true) {
       //history.push("/project" + String(index));
     }

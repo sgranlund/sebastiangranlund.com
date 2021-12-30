@@ -4,9 +4,6 @@ export const ProjectIndexView = ({ index, handleOnClick, handleOnClick2 }) => {
   return (
     <div>
       <div className="landingPage">
-  
-
-        
         <Project index={index} handleOnClick2={handleOnClick2} />
       </div>
     </div>

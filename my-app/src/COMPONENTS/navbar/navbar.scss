@@ -1,0 +1,45 @@
+.mainMenu {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menuItem {
+    width: 20%;
+    position: relative;
+  }
+  .menuItem a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menuItem a:hover {
+    color: orange;
+  }
+  #icon {
+    fill: white;
+    width: 100%;
+    height: 100%;
+  }
+  #icon:hover {
+    fill: orange;
+  }
+  @keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: white;
+    }
+  }

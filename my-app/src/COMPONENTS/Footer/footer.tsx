@@ -1,4 +1,4 @@
-import "../CSS/footer.css";
+import "./footer.scss";
 const Footer = () => {
   return (
     <div id="footer">
@@ -19,7 +19,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p>This Site was made by Sebastian Granlund</p>
+      <p>Made by Sebastian Granlund</p>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components"
-import "./Animations/textAnimationTitle.scss"
+import "./logoCorner.scss"
 import React, { FC } from "react";
 interface LogoProps {
     text:string,
