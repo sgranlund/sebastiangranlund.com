@@ -1,9 +1,9 @@
 import plant from "../../images/plantWatering.jpg";
-
+import "./project.scss"
 const Project6 = ({}) => {
   return (
     <div>
-      <h1 id="title">Automatic plant watering system </h1>
+      <h1 id="projectTitle">Automatic plant watering system </h1>
       <div id="projectCanvas">
         <img src={plant} alt="" />
         <p>

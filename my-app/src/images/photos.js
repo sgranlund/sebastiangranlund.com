@@ -6,7 +6,13 @@ import container from "./containerGallery.png";
 import timeline from "./timelineGallery.png";
 import plant from "./plantWateringGallery.jpg";
 import TEG from "./TEGGallery.jpg";
+import CANDELA from "./KTH_8.jpg";
 export const photos = [
+  {
+    src: CANDELA,
+    width: 4416,
+    height: 2947,
+  },
   {
     src: TEG,
     width: 4416,

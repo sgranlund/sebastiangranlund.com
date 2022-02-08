@@ -1,9 +1,9 @@
 import stolen from "../../images/stolen.png";
-
+import "./project.scss"
 const Project3 = ({}) => {
   return (
     <div>
-      <h1 id="title">Genève - A materials project </h1>
+      <h1 id="projectTitle">Genève - A materials project </h1>
       <div id="projectCanvas">
         <img src={stolen} alt="" />
         <p>

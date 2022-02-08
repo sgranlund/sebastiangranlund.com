@@ -1,9 +1,9 @@
 import container from "../../images/container.png";
-
+import "./project.scss"
 const Project4 = ({}) => {
   return (
     <div>
-      <h1 id="title">FTI-container </h1>
+      <h1 id="projectTitle">FTI-container </h1>
       <div id="projectCanvas">
         <img src={container} alt="" />
         <p>

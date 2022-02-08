@@ -1,9 +1,10 @@
 import TEG from "../../images/TEG.jpg";
+import "./project.scss"
 
 const Project7 = ({}) => {
   return (
     <div>
-      <h1 id="title">Bachelor Thesis Project </h1>
+      <h1 id="projectTitle">Bachelor Thesis Project </h1>
 
       <div id="projectCanvas">
         <img src={TEG} alt="" />

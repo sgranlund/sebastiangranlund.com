@@ -1,9 +1,9 @@
 import trangiaNatur from "../../images/trangiaNatur.jpg";
-
+import "./project.scss"
 const Project2 = ({}) => {
   return (
     <div>
-      <h1 id="title">Trangia bag</h1>
+      <h1 id="projectTitle">Trangia bag</h1>
       <div id="projectCanvas">
         <img src={trangiaNatur} alt="" />
         <p>

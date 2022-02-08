@@ -1,9 +1,9 @@
 import montBlanc from "../../images/montBlanc.jpg";
-
+import "./project.scss"
 const Project1 = ({}) => {
   return (
     <div>
-      <h1 id="title">Mount Blanc mobile light</h1>
+      <h1 id="projectTitle">Mount Blanc mobile light</h1>
       <div id="projectCanvas">
         <img src={montBlanc} alt="" />
         <p>

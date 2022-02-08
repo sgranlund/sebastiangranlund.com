@@ -1,9 +1,9 @@
 import takbox from "../../images/takboxRosa.jpg";
-
+import "./project.scss"
 const Project0 = ({}) => {
   return (
     <div>
-      <h1 id="title">Takbox </h1>
+      <h1 id="projectTitle">Takbox </h1>
       <div id="projectCanvas">
         <img src={takbox} alt="" />
         <p>

@@ -1,9 +1,9 @@
 import timeline from "../../images/timeline.png";
-
+import "./project.scss"
 const Project5 = ({}) => {
   return (
     <div>
-      <h1 id="title">Timeline </h1>
+      <h1 id="projectTitle">Timeline </h1>
       <div id="projectCanvas">
         <img src={timeline} alt="" />
         <p>

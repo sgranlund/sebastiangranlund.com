@@ -75,7 +75,25 @@ export const WorkPageView = ({ handleOnClick }) => {
               icon: "archive",
               items: [
                 {
-                  title: "Summer Intern Acoustic",
+                  title: "Master Thesis Student",
+                  company: "Ocado Technology",
+                  description: "Summer internship as Mechatronics Test Engineer. Building and testing prototypes for Ocado Technology.",
+                  companyWebSite: "Currently doing a Master Thesis Project at Ocado Technology.",
+                  companyMeta: "",
+                  datesBetween: "2022.01 - 2022.06",
+                  descriptionTags: ["Python", "OnShape","ANSYS"],
+                },
+                {
+                  title: "Test Engineer",
+                  company: "Ocado Technology",
+                  description: "Summer internship as Mechatronics Test Engineer. Building and testing prototypes for Ocado Technology.",
+                  companyWebSite: "https://www.ocadogroup.com/technology/technology-pioneers",
+                  companyMeta: "",
+                  datesBetween: "2021.05 - 2021.08",
+                  descriptionTags: ["Python", "OnShape","Soldering"],
+                },
+                {
+                  title: "Acoustic Engineer",
                   company: "Scania Group",
                   description: "Summer intern at Scania' acoustic department",
                   companyWebSite: "https://www.scania.com/",
@@ -216,7 +234,7 @@ export const WorkPageView = ({ handleOnClick }) => {
                 "MatLab",
                 "μVision",
                 "COMSOL",
-                "Ansys Fluent",
+                "Ansys",
                 "Simulink",
                 "ArtemiS Suite",
                 "CAD-Solid Edge",
@@ -224,6 +242,8 @@ export const WorkPageView = ({ handleOnClick }) => {
                 "EduPack",
                 "Eagle PCB",
                 "Adobe-family",
+                "OnShape",
+                
               ],
             },
             {
